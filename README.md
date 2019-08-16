@@ -7,9 +7,12 @@ login and registration is completed using Node.js, Express, Passport, Mongoose, 
 Bootswatch and Font-awesome is used for front-end
 
 To start the app :
-Open "config/keys.js" and add your MongoDB URI
+Open "config/keys.js" and add your MongoDB URI 
+MongoURI: 'mongodb://localhost/LoginDB'
 
 $ npm install
-$ npm start or $ npm run dev
+$ npm start 
+or 
+$ npm run dev
 
 Visit http://localhost:5000
