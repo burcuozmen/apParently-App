@@ -1,7 +1,8 @@
 ## Setup for Local Machine
 1. Create database: travelSecure_development
-2. Run application using `yarn dev` locally
-3. [Live Application](https://young-atoll-61796.herokuapp.com/)
+2. Run 'yarn install'
+3. Run application using `yarn dev` locally
+
 
 ## Purpose of Application
 - Help others understand the basic structure of an Express/Mongo/Mongoose/Handlebars application using MVC (mostly based on Rails pattern).
