@@ -1,0 +1,54 @@
+/* .down-arrow {
+	width: 45px;
+  height: 45px;
+	max-width: 100%;
+} */
+
+.intro {
+  display: table; 
+  width: 100%;
+  height: 100%;
+  padding: 2% 0; 
+  text-align: left;
+  color:orange;
+  background: url(../img/Pngtree—child\ and\ parents\ warm\ family_4217963.png) no-repeat right scroll;
+  background-color: green;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: auto;
+  -o-background-size: cover;
+  margin-top: 6em;
+}
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: center;
+}
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+}
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 50px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 767px) {
+  .content-section {
+    padding-top: 250px;
+  }
+  .download-section {
+    padding: 100px 0;
+  }
+}
+
