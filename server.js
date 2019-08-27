@@ -20,7 +20,9 @@ app.use(
 );
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost/testDB02", { useNewUrlParser: true });
+// mongoose.connect("mongodb://localhost/testDB02", { useNewUrlParser: true });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/testDB02";
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 // DB Config
 //const db = require("./config/keys").mongoURI;
